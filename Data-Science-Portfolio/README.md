@@ -1,52 +1,36 @@
-# 💼 Astittva Mandloi — Data Scientist
+# 💼 Astittva Mandloi — Data Scientist  
 
 **Email:** astittvamandloi@gmail.com  
-**Role:** Data Scientist
+**Role:** Data Scientist  
 
-Welcome to my data science portfolio. This repo contains end‑to‑end, notebook‑first projects across EDA, classical ML, deep learning, and computer vision. Each project includes a clean README, reproducible notebook, and lightweight requirements.
+Welcome to my **Data Science Portfolio**, a collection of end-to-end notebook-based projects across **EDA**, **Machine Learning**, **Deep Learning**, and **Computer Vision**.  
+Each project folder includes a clean `README.md`, the Jupyter notebook, and reproducible requirements.
 
 ---
 
-## 📂 Projects
+## 📂 Projects  
 
 | Project | Description | Tech Stack |
 |:--|:--|:--|
-| [🍽️ Zomato Data Analysis](./Zomato_Analysis) | Statistical EDA with validated insights: rating parsing, winsorization, Welch’s t‑test, OLS with confounders. | Python, Pandas, Seaborn, SciPy, Statsmodels |
-| [🏦 Loan Approval Prediction](./Loan_Approval_Prediction) | Feature‑engineered, calibrated classifier with F1‑optimal threshold and confusion‑matrix reporting. | Scikit‑learn, Pipelines, Calibration |
-| [💗 Breast Cancer Prediction](./Breast_Cancer_Prediction) | Robust evaluation via nested CV, learning curves, and permutation importance. | Scikit‑learn, Logistic Regression |
-| [🍷 Wine Type & Quality (DL)](./Wine_Prediction) | Deep learning model (Keras) for wine type; baselines vs NN, AUC/Acc/F1 with learning curves. | TensorFlow/Keras, Scikit‑learn |
-| [✍️ OCR of Handwritten Digits](./Digits_OCR) | OpenCV segmentation → 28×28 normalization → CNN digit recognition, with overlay visualizations. | OpenCV, TensorFlow/Keras |
+| [🍽️ Zomato Data Analysis](./Zomato_Analysis) | Statistical EDA with validated insights — rating parsing, winsorization, Welch’s t-test, OLS with confounders. | Python, Pandas, Seaborn, SciPy, Statsmodels |
+| [🏦 Loan Approval Prediction](./Loan_Approval_prediction) | Feature-engineered, calibrated classifier with F1-optimal threshold and confusion-matrix reporting. | Scikit-learn, Pipelines, Calibration |
+| [💗 Breast Cancer Prediction](./Breast_Cancer_Prediction) | Robust evaluation via nested CV, learning curves, and permutation importance. | Scikit-learn, Logistic Regression |
+| [🍷 Wine Type & Quality (Deep Learning)](./Prediction%20of%20Wine%20type%20using%20Deep%20Learning) | Deep learning model (Keras) for wine type and quality classification; baselines vs NN with learning curves. | TensorFlow/Keras, Scikit-learn |
+| [✍️ OCR of Handwritten Digits (OpenCV)](./OCR%20of%20Handwritten%20digits%20OpenCV) | OpenCV segmentation → 28×28 normalization → CNN digit recognition with overlay visualizations. | OpenCV, TensorFlow/Keras |
 
 ---
 
-## 🚀 How to run locally
+## 🚀 How to Run Locally  
 
 ```bash
-# Clone your portfolio (replace with your GitHub repo URL after you push)
-git clone <your-repo-url>.git
-cd <repo-folder>
+# Clone your portfolio (replace with your actual repo URL)
+git clone https://github.com/<your-username>/Data-Science-Portfolio.git
+cd Data-Science-Portfolio
 
-# Choose a project, install deps, and open the notebook
-cd Zomato_Analysis           # or any project folder listed above
+# Choose a project folder
+cd "Zomato_Analysis"           # or any of the other folders
+
+# Install dependencies and run the notebook
 pip install -r requirements.txt
 jupyter notebook
-```
 
-> All projects are **notebook‑only** (no web apps) for clean reproducibility. Each folder includes a focused `requirements.txt`.
-
----
-
-## 🧰 Core Skills
-
-- **Languages:** Python (Pandas, NumPy), SQL (basics)  
-- **ML:** EDA, feature engineering, model selection, cross‑validation, calibration, thresholding  
-- **DL:** TensorFlow / Keras (classification, tabular & CV), training best practices (BatchNorm, Dropout, EarlyStopping)  
-- **CV:** OpenCV preprocessing & contour‑based segmentation  
-- **Eval:** AUC, Accuracy, F1, confusion matrices, learning curves, permutation importance  
-- **Extras:** Clear READMEs, reproducible notebooks, lightweight environments
-
----
-
-## 📫 Contact
-
-If you’d like to discuss work opportunities or collaborations, reach me at **astittvamandloi@gmail.com**.
