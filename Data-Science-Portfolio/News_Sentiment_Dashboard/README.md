@@ -54,7 +54,6 @@ streamlit run app.py
 
 ## 🌍 Live Demo
 🔗 **[View Deployed App on Streamlit Cloud](https://YOUR-USERNAME-news-sentiment-dashboard.streamlit.app)**  
-*(Replace the link above with your actual deployment URL)*
 
 ---
 
