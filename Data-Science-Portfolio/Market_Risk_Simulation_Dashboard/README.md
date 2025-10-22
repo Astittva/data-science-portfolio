@@ -112,7 +112,7 @@ After running, open the provided **localhost URL** (e.g. `http://localhost:8501`
    └── README.md
    ```
 
-2. Go to [https://share.streamlit.io]()
+2. Go to [https://share.streamlit.io](https://data-science-portfoliomarket-risk-simula-2e5xgw.streamlit.app)
 
 3. Click **New app → Paste GitHub repo link**
 
