@@ -17,6 +17,9 @@ Each project folder includes a clean `README.md`, the Jupyter notebook, and repr
 | [💗 Breast Cancer Prediction](./Breast_Cancer_Prediction) | Robust evaluation via nested CV, learning curves, and permutation importance. | Scikit-learn, Logistic Regression |
 | [🍷 Wine Type & Quality (Deep Learning)](./Prediction%20of%20Wine%20type%20using%20Deep%20Learning) | Deep learning model (Keras) for wine type and quality classification; baselines vs NN with learning curves. | TensorFlow/Keras, Scikit-learn |
 | [✍️ OCR of Handwritten Digits (OpenCV)](./OCR%20of%20Handwritten%20digits%20OpenCV) | OpenCV segmentation → 28×28 normalization → CNN digit recognition with overlay visualizations. | OpenCV, TensorFlow/Keras |
+| 📉 [Market Risk Simulation Dashboard](https://risk-dashboard.streamlit.app)
+A Streamlit app demonstrating Monte Carlo and Parametric Value-at-Risk (VaR) analysis, backtesting, and portfolio optimization.
+
 
 ---
 
